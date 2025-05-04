@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: radial-gradient(circle at top right, #2d2d80, #000);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.new-card {
+    background-color: rgba(255, 255, 255, 0.119);
+    color: white;
+    width: 50% !important;
+
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 1rem;
+}

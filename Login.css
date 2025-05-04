@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background: radial-gradient(circle at top right, #2d2d80, #000);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.page-login {
+    width: 420px;
+    background-color: transparent;
+    border: 20px solid rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    margin: auto;
+    /* لتوسيط النموذج رأسيًا وأفقيًا */
+}
+
+.page-login h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.page-login .input-login {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-login input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: grey;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-login input::placeholder {
+    color: #fff;
+}
+
+.input-login i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.page-login .remember-login {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.remember-login label input {
+    margin-right: 3px;
+}
+
+.remember-login a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-login a:hover {
+    text-decoration: underline;
+}
+
+.page-login .btn {
+    font-size: 20px;
+    border-radius: 40px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-left: 18%;
+    color: #fff;
+    font-weight: 500;
+    background-color: #4e34b6;
+}
+
+.page-login .Register {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.Register p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Register p a:hover {
+    text-decoration: underline;
+}
